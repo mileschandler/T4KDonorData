@@ -10,7 +10,7 @@ from selenium.webdriver.common.keys import Keys
 def open_page():
     URL = 'https://nfp.everydayhero.com/admin/organisations/7717ddef-6908-4b09-9c3d-498aa4b9c081/reporting/supporter-pages'
     email = 'miles.chandler@ichandler.net'
-    pwd = 'risc932WEBBLAMAC$'
+    pwd = ''
 
     browser = webdriver.Chrome('chromedriver')
     browser.get(URL)
